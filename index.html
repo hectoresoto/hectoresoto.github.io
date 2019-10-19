@@ -12,23 +12,47 @@
     </head>
     <body>
         
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Hector.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto mr-2">
+
+                <li class="nav-item pr-1 ml-auto">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item pr-1 ml-auto">
+                    <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item pr-1 ml-auto">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <!-- Use any element to open the sidenav -->
-        <span onclick="openNav()" class="fas fa-bars fa-2x ml-3 mt-3" id="nav-button"></span>
+    <div class="social">
+			<ul class="navbar-nav ml-1">
+				<li class="nav-item">
+					<a class="github" target="_blank" href="#" title="Follow on GitHub">
+						<span><i class="fab fa-github-square fa-2x"></i></span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="linkedin" target="_blank" href="#" title="Connect on Linkedin">
+						<span><i class="fab fa-linkedin fa-2x"></i></span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="instagram" target="_blank" href="#" title="Follow on Instagram">
+						<span><i class="fab fa-instagram fa-2x"></i></span>
+					</a>
+				</li>
+			</ul>
+		</div>
 
-        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-        <div id="main">
-
-            
-
-        </div>
         <script src="js/jquery-3.4.0.slim.min.js"></script>
         <script src="js/site.js"></script>
         <script src="js/popper.min.js"></script>
