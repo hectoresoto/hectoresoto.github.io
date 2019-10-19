@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
-    <body>
-        
+    <body id="particles-js">
+    
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Hector.</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,17 +36,17 @@
     <div class="social">
 			<ul class="navbar-nav ml-1">
 				<li class="nav-item">
-					<a class="github" target="_blank" href="#" title="Follow on GitHub">
+					<a class="github" target="_blank" href="https://github.com/hectoresoto" title="Follow me on GitHub">
 						<span><i class="fab fa-github-alt fa-2x"></i></span>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="linkedin" target="_blank" href="#" title="Connect on Linkedin">
+					<a class="linkedin" target="_blank" href="https://www.linkedin.com/in/hector-soto/" title="Connect with me on Linkedin">
 						<span><i class="fab fa-linkedin fa-2x"></i></span>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="instagram" target="_blank" href="#" title="Follow on Instagram">
+					<a class="instagram" target="_blank" href="https://www.instagram.com/coding_hec/" title="Follow me on Instagram">
 						<span><i class="fab fa-instagram fa-2x"></i></span>
 					</a>
 				</li>
@@ -57,5 +57,12 @@
         <script src="js/site.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/particles.js"></script>
+      <!-- particles JSON-->
+        <script>
+            particlesJS.load('particles-js', 'js/particlesjs-config.json', function () {
+            console.log('callback - particles.js config loaded');
+            });
+        </script>
     </body>
 </html>
