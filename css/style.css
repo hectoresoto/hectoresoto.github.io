@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 #particles-js {
 position: fixed;
 z-index: -1;
@@ -44,6 +49,10 @@ height: 100%;
     color: rgb(77, 77, 77);
 }
 
+.fa-angle-double-left:before, .fa-angle-double-right:before{
+    color: rgb(77, 77, 77) !important;
+}
+
 .fa-github-alt:hover {
     color: rgba(92, 7, 78, 0.644);
 }
@@ -62,6 +71,15 @@ height: 100%;
         background-clip: text;
        -webkit-text-fill-color:transparent;
 
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 4px;
+  width:75%;
 }
 
 
