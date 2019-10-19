@@ -11,18 +11,24 @@
     </head>
     <body>
         
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
 
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()">open</span>
 
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+        <div id="main">
 
-            <div class="jumbotron vertical-center">
-                <div class="container">
-                    <h1 class="display-3">Hello! my name is Héctor Soto</h1>
-                    <hr class="my-2">
-                    <p>I am a self-taught web developer. I started my carrer in April 2019, since I formally landed my first job as a Junior.NET developer thorugh a small tech company in Mexico City, Mexico. Athough I feel a natural attraction to UI/UX, I'm planning to be a full stack developer. As my programming journey goes by, I'll continue to showcase my work in this
-                    portfolio.</p>
-                </div>
-            </div>
-        
+            
+
+        </div>
+        <script src="js/site.js"></script>
         <script src="js/jquery-3.4.0.slim.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
