@@ -14,11 +14,11 @@
     top: 50%;
 }
 
-.fa-linkedin, .fa-github-square, .fa-instagram, .fa-2x:hover {
+.fa-linkedin, .fa-github-alt, .fa-instagram, .fa-2x:hover {
     color: black;
 }
 
-.fa-linkedin, .fa-github-square, .fa-instagram {
+.fa-linkedin, .fa-github-alt, .fa-instagram {
     transition: color .25s ease-in-out;
     -webkit-transition: color .25s ease-in-out;
     -moz-transition: color .25s ease-in-out;
