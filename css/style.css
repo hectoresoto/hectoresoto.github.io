@@ -75,11 +75,15 @@ height: 100%;
 
 .container {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%,-50%);
   padding: 4px;
   width:75% !important;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
 }
 
 .fadeInDown, .fadeInUp{
