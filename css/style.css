@@ -82,4 +82,7 @@ height: 100%;
   width:75% !important;
 }
 
-
+.fadeInDown, .fadeInUp{
+    animation-duration: 1.7s;
+    animation-delay: 0.4s;
+}
