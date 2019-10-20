@@ -90,3 +90,10 @@ height: 100%;
     animation-duration: 1.7s;
     animation-delay: 0.4s;
 }
+
+@media screen and (max-width : 320px)
+{
+    .nav-link{
+        
+    }
+}
