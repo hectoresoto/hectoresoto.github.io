@@ -86,14 +86,15 @@ height: 100%;
   -o-transform: translate(-50%,-50%);
 }
 
+/* animacion de fade in de texto principal */
 .fadeInDown, .fadeInUp{
     animation-duration: 1.7s;
     animation-delay: 0.4s;
 }
 
-@media screen and (max-width : 320px)
+/* @media screen and (max-width : 320px)
 {
     .nav-link{
         
     }
-}
+} */
